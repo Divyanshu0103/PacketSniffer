@@ -35,19 +35,14 @@ The primary objective of a network packet sniffer is to capture, analyze, and in
 4. Manage packet capturing and storage using jpcap_thread.
    
 # Flow of Working:
-**Run Sniffer.java:** Start the packet sniffer application.
 
-**Click on "List Interfaces" Option:** Open the interfaces window to view available network interfaces.
-
-**Choose an Interface:** Select the desired network interface from the list.
-
-**Choose Packet Type:** Select TCP, UDP, or ICMP packet capturing option.
-
-**Click on "Capture":** Begin capturing packets on the selected interface and of the chosen type.
-
-**Capture Packets:** Sequentially store captured packets using jpcap_thread. Display packet details such as source/destination IP, port numbers, etc.
-
-**Stop Capturing:** option to stop packet capturing if needed.
+1. **Run Sniffer.java:** Start the packet sniffer application.
+2. **Click on "List Interfaces" Option:** Open the interfaces window to view available network interfaces.
+3. **Choose an Interface:** Select the desired network interface from the list.
+4. **Choose Packet Type:** Select TCP, UDP, or ICMP packet capturing option.
+5. **Click on "Capture":** Begin capturing packets on the selected interface and of the chosen type.
+6. **Capture Packets:** Sequentially store captured packets using jpcap_thread. Display packet details such as source/destination IP, port numbers, etc.
+7. **Stop Capturing:** option to stop packet capturing if needed.
 
 # Application  
 The Network Analyzer project has real-life applications across various sectors and industries, including: 
