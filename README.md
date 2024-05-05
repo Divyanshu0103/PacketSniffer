@@ -62,9 +62,9 @@ The Network Analyzer project has real-life applications across various sectors a
 
 # Dependencies 
 
-->Jpcap librabry with jdk 1.8(32-bit)
-->Pcap librabry (WinPcap)
-->NetBeans
+1. Jpcap librabry with jdk 1.8(32-bit)
+2. Pcap librabry (WinPcap)
+3. NetBeans
 
 
 
