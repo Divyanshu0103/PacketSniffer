@@ -33,6 +33,10 @@ The primary objective of a network packet sniffer is to capture, analyze, and in
 2. Display packet details such as source/destination IP, port numbers, etc.
 3. Include options for selecting packet types (TCP, UDP, ICMP).
 4. Manage packet capturing and storage using jpcap_thread.
+
+**Mavern File SnifferApp.java File:**
+1. Initialize Pcap4J to capture packets from the selected network interface.
+2. Pass captured packets to jpcap for further processing within the Java program.
    
 # Flow of Working:
 
